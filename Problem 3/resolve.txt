@@ -1,0 +1,3 @@
+The computational inefficiencies and anti-patterns I found in this code is
+
+- There are an unnecessary repetition between two variable definitions "formattedBalances" and "rows". So I think, you should remove the "formattedBalances" definition, and in the rows definition, you write {balance.amount.toFixed()}
